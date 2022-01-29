@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 public class MyLibaryManager : MonoBehaviour
 {
-    //worse scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
+    //worst scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
     //games installed
     public bool GFPS_Installed = false;
     public bool MPLPFPS_Installed = false;
