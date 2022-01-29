@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 public class StoreManager : MonoBehaviour
 {
-    //worse scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
+    //worst scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
     //strings
     private string installDirectory;
     private string nameOfGame;
