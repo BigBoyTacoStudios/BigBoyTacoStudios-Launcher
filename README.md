@@ -1,5 +1,5 @@
 # BigBoyTacoStudios-Launcher
-run the install program as admin(to install it for all users)
+run the install program as admin (THIS IS REQUIRED)
 
 DIRECTIONS
 1. to download a game go to the store and click on the game you would like to install
