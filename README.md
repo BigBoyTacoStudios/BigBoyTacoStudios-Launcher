@@ -2,6 +2,7 @@
 run the install program as admin (THIS IS REQUIRED)
 
 DOWNLOAD: https://drive.google.com/file/d/1JTab-SW191y8sWE7Mq_GyaJSshsQnPwg/view?usp=sharing
+ALTERNATE DONWLOAD (comes with games pre-installed bigger file size but you are able to put the launcher in any folder you want): 
 
 DIRECTIONS
 1. to download a game go to the store and click on the game you would like to install
