@@ -1,6 +1,6 @@
 # BigBoyTacoStudios-Launcher
 run the install program as admin (THIS IS REQUIRED)
-# Downloads
+# DOWNLOADS
 DOWNLOAD: https://drive.google.com/file/d/1JTab-SW191y8sWE7Mq_GyaJSshsQnPwg/view?usp=sharing
 
 ALTERNATE DONWLOAD (comes with games pre-installed bigger file size but you are able to put the launcher in any folder you want): https://drive.google.com/file/d/1zDLgoyG4sZizuzHrn11dcTxLITR53KL_/view?usp=sharing
