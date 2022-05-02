@@ -6,11 +6,10 @@ using System.Runtime.InteropServices;
 using System.Net;
 using UnityEngine.UI;
 using System.Diagnostics;
-using Newtonsoft.Json;
 
 public class StoreManager : MonoBehaviour
 {
-    //worst scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
+    //worse scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
     //strings
     private string installDirectory;
     private string nameOfGame;
@@ -120,6 +119,72 @@ public class StoreManager : MonoBehaviour
         yar.StartInfo.RedirectStandardOutput = false;
         yar.StartInfo.Verb = "runas";
         yar.Start();
+        Store.SetActive(true);
+        LoadingTXT.SetActive(false);
+    }
+    public void installCiscord()
+    {
+        installDirectory = null;
+
+        installDirectory = Application.dataPath;
+
+        UnityEngine.Debug.Log(installDirectory + @"/Installers/CiscrodProofofConceptSetup.exe");
+
+        //start process
+        Store.SetActive(false);
+        LoadingTXT.SetActive(true);
+        Process yor = new Process();
+        yor.StartInfo.FileName = installDirectory + @"\Installers\CiscrodProofofConceptSetup.exe";
+        yor.StartInfo.Arguments = "";
+        yor.StartInfo.UseShellExecute = true;
+        yor.StartInfo.CreateNoWindow = true;
+        yor.StartInfo.RedirectStandardOutput = false;
+        yor.StartInfo.Verb = "runas";
+        yor.Start();
+        Store.SetActive(true);
+        LoadingTXT.SetActive(false);
+    }
+    public void installGCS()
+    {
+        installDirectory = null;
+
+        installDirectory = Application.dataPath;
+
+        UnityEngine.Debug.Log(installDirectory + @"/Installers/GenericCookingSimulatorInstall.exe");
+
+        //start process
+        Store.SetActive(false);
+        LoadingTXT.SetActive(true);
+        Process yor = new Process();
+        yor.StartInfo.FileName = installDirectory + @"\Installers\GenericCookingSimulatorInstall.exe";
+        yor.StartInfo.Arguments = "";
+        yor.StartInfo.UseShellExecute = true;
+        yor.StartInfo.CreateNoWindow = true;
+        yor.StartInfo.RedirectStandardOutput = false;
+        yor.StartInfo.Verb = "runas";
+        yor.Start();
+        Store.SetActive(true);
+        LoadingTXT.SetActive(false);
+    }
+    public void installSBCFrFr()
+    {
+        installDirectory = null;
+
+        installDirectory = Application.dataPath;
+
+        UnityEngine.Debug.Log(installDirectory + @"/Installers/SBCFrFrInstall.exe");
+
+        //start process
+        Store.SetActive(false);
+        LoadingTXT.SetActive(true);
+        Process yor = new Process();
+        yor.StartInfo.FileName = installDirectory + @"\Installers\SBCFrFrInstall.exe";
+        yor.StartInfo.Arguments = "";
+        yor.StartInfo.UseShellExecute = true;
+        yor.StartInfo.CreateNoWindow = true;
+        yor.StartInfo.RedirectStandardOutput = false;
+        yor.StartInfo.Verb = "runas";
+        yor.Start();
         Store.SetActive(true);
         LoadingTXT.SetActive(false);
     }

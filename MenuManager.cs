@@ -7,7 +7,7 @@ using System.Net;
 
 public class MenuManager : MonoBehaviour
 {
-    //worst scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
+    //worse scripts ever made by BigBoyTaco https://github.com/BigBoyTaco
     //variables
     public GameObject Main;
     public GameObject MyLibary;
